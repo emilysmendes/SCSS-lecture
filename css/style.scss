@@ -1,0 +1,22 @@
+//header.container{
+//  border-bottom: 3px solid #000;
+//
+//  h1 {
+//    color:blue;
+//  }
+//
+//
+//}
+
+$tablet-breakpoint: 768px;
+
+h1{
+  color: black;
+  &:hover {
+    color: yellow;
+  }
+  @media (max-width: $tablet-breakpoint) {
+    color: red;
+  }
+
+}

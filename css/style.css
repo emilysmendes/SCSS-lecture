@@ -1,0 +1,13 @@
+h1 {
+  color: black;
+}
+h1:hover {
+  color: yellow;
+}
+@media (max-width: 768px) {
+  h1 {
+    color: red;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
