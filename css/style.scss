@@ -7,16 +7,32 @@
 //
 //
 //}
+//
+//$tablet-breakpoint: 768px;
+//
+//h1{
+//  color: black;
+//  &:hover {
+//    color: yellow;
+//  }
+//  @media (max-width: $tablet-breakpoint) {
+//    color: red;
+//  }
+//
+//}
+//$success: #b097ec;
+//
+//@import '../node_modules/bootstrap/scss/bootstrap.scss';
+//
+//$h1color: red;
+//
+//$h1color: blue !default;
+//
+//h1.dog {
+//  color: $h1color;
+//}
 
-$tablet-breakpoint: 768px;
+@import '_custom-variables.scss.css';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-h1{
-  color: black;
-  &:hover {
-    color: yellow;
-  }
-  @media (max-width: $tablet-breakpoint) {
-    color: red;
-  }
 
-}
